@@ -23,7 +23,7 @@ def array_from_str(s:str) -> List[int]:
 # Пример использования
 a:List[int] = array_from_str("123456789")  # Число 456
 b:List[int] = array_from_str("987654321") # Число 789
-B:int = 10  # Основание системы счисления
+B:int = 16  # Основание системы счисления
 print(a)
 result = add_big_numbers(a, b, B)
 print("Результат:", result)  # Вывод: [5, 4, 2, 1] (число 1245)
